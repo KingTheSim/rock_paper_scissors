@@ -15,3 +15,6 @@ Afterwards, by using the imported random.randint method a number is chosen by th
 When both the player move and the computer move are chosen, they are compared by using an if statement and a winner is chosen. If the player wins, "You win!" is printed, if the computer wins, "You lose!" is printed and if it is a draw, "Draw!" is printed.
 
 After the winner is chosen, "Type [yes] to Play Again or [no] to quit: " will be printed on the console, prompting the player to choose if he wants to play more. If he types "yes", the program will repeat itself, since everything is in a while loop. If "no" is chosen, "Thank you for playing!" is printed on the console and the game ends. If an invalid answer is typed, "Invalid Input. Try again..." and the game ends.
+
+The game can be tested on the following link:
+https://replit.com/@KingTheSim/rockpaperscissors#rock_paper_scissors.py
