@@ -46,6 +46,7 @@ while True:
     repeating = input("Type [yes] to Play Again or [no] to quit: ")
     if repeating not in ["yes", "no"]:
         print("Invalid Input. Try again...")
+        exit()
     elif repeating == "no":
         print("Thank you for playing!")
         exit()
